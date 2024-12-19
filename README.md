@@ -1,6 +1,8 @@
 Summarize the project and what problem it was solving.
 
-Project: 3-2 Milestone Two Submission
+#1 Project: 3-2 Milestone Two Submission
+Copy of StateMachine_LED_Contr
+Video of the LEDs blinking_Vincent_Yanez.mp4
 
 Overview
 This project involved programming the TI CC3220x LAUNCHXL using Code Composer Studio (CCS)
@@ -48,3 +50,49 @@ I made the project maintainable and readable by using clear variable names and a
 I also kept the code organized into smaller, easy-to-understand functions. To make it adaptable, I used simple and 
 modular code that can be easily changed or expanded in the future. This helps with debugging and makes it easier to 
 update the project later.
+
+===================================================================================================================
+Summarize the project and what problem it was solving.
+
+#2 Project: 5-1 Milestone Three Submission
+Morse Code Video_SOS_OK.mp4
+Morse Code State Machine.drawio.pdf
+gpiointerrupt_CC3220S_LAUNCHXL_nortos_ticlang 
+
+
+Overview
+This project involves programming the TI CC3220x LAUNCHXL using Code Composer Studio (CCS) to blink LEDs in a Morse code 
+pattern. Pressing a button changes the Morse code message.
+
+Key Tasks:
+
+LED Morse Code: Blink green, yellow, and red LEDs in a Morse code pattern that changes when a button is pressed.
+Timer and State Machine: Use a timer to control a synchronous state machine based on the design.
+Button Interrupts: Detect button presses with interrupts and update the Morse code message.
+Documentation: Create a state machine diagram (draw.io) and save it as a PDF.
+
+What did you do particularly well?
+
+I successfully configured the code onto the board, making the LEDs blink in the correct Morse code pattern. I also used Code Composer
+Studio effectively to load and debug the project.
+
+Where could you improve?
+
+I could improve by making my code easier to read and more efficient. Setting up the timer and interrupts was tricky, so I want to 
+learn more about them. I also need to test the code more carefully for issues like rapid button presses.
+
+What tools and/or resources are you adding to your support network?
+
+I am adding resources like the TI Code Composer Studio documentation and online forums to better understand timers and interrupts. 
+I’m also using video tutorials and examples related to state machines and Morse coding to improve my skills. Additionally, I plan 
+to rely more on debugging tools within CCS to troubleshoot issues efficiently.
+
+What skills from this project will be particularly transferable to other projects and/or course work?
+
+I learned how to use timers, interrupts, and state machines, which are useful for other embedded system projects. Controlling LEDs 
+and handling button inputs can apply to many applications, and working with Code Composer Studio will help in future projects.
+
+How did you make this project maintainable, readable, and adaptable?
+
+I made the code easy to read by using clear names for variables and adding comments. I kept the code organized with functions, making 
+it easier to update or change in the future.
